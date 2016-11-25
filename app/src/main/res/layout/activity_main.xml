@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffffff">
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </com.baidu.mapapi.map.MapView>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="bottom|center_horizontal"
+      android:layout_marginBottom="40dp"
+      android:orientation="vertical">
+      <Button
+          android:id="@+id/btn_input_current"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:background="@drawable/btn_corner"
+          android:text="@string/input_chufa"/>
+      <Button
+          android:id="@+id/btn_input_des"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:background="@drawable/btn_corner"
+          android:layout_marginTop="10dp"
+          android:text="@string/input_des"/>
+      <Button
+          android:id="@+id/btn_start_take_car"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:layout_gravity="center_horizontal"
+          android:background="@drawable/btn_corner"
+          android:text= "@string/input_start_yueche"/>
+
+  </LinearLayout>
+
+
+
+</FrameLayout>

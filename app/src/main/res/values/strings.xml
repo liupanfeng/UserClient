@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">定位</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_lanuch">LanuchActivity</string>
+    <string name="title_activity_launch">LaunchActivity</string>
+    <string name="title_activity_chat">聊天</string>
+    <string name="btn_login">约车</string>
+    <string name="input_des">填目的地</string>
+    <string name="input_chufa">填出发地</string>
+    <string name="input_start_yueche">开始约车</string>
+    <string name="input_tel_number">请填写手机号</string>
+    <string name="input_name">请填写姓名</string>
+
+</resources>
